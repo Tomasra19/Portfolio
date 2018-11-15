@@ -1,9 +1,9 @@
 nav {
-    background: black;
-    height: 50px;
-    border-radius: 10px;
+    background: #173F48;
+    height: 30px;
     color: #ffffff;
     padding: 3px;
+    overflow: hidden;
 }
 a {
     color: #ffffff;
@@ -13,26 +13,21 @@ a {
 }
 main {
     text-align: justify;
-    background-color: #00661B;
   }
 h1 {
+    margin-left: 50px;
     font-size: 30px;
     text-decoration: gray;
 }
 p {
-    font-size: 15px;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 25px;
     white-space: normal;
+    text-align: center;
 }
-img {
-    height: 200px;
-    width: 150px;
-    position: relative;
-}
-footer {
-    background: black;
-    height: 40px;
-    border-radius: 10px;
-}
+
+
 
 
 
