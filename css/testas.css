@@ -1,0 +1,38 @@
+nav {
+    background: black;
+    height: 50px;
+    border-radius: 10px;
+    color: #ffffff;
+    padding: 3px;
+}
+a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 50px;
+
+}
+main {
+    text-align: justify;
+    background-color: #00661B;
+  }
+h1 {
+    font-size: 30px;
+    text-decoration: gray;
+}
+p {
+    font-size: 15px;
+    white-space: normal;
+}
+img {
+    height: 200px;
+    width: 150px;
+    position: relative;
+}
+footer {
+    background: black;
+    height: 40px;
+    border-radius: 10px;
+}
+
+
+
