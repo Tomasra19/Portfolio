@@ -4,27 +4,50 @@
     <meta charset="UTF-8">
     <title>Portfolio</title>
     <link rel="stylesheet" href="/css/reset.css">
-    <link rel="stylesheet" href="css/testas.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <link rel="stylesheet" href="/css/layout.css">
+    <link rel="stylesheet" href="/css/design.css">
+    <link rel="stylesheet" href="css/portfolio.css">
 </head>
 <body>
 <header>
     <nav class="top">
-        <a href="index.html">Home</a>
-        <a href="portfolio.html">Portofolio</a>
-        <a href="contacts.html">Kontaktai</a>
+        <img class="logo" src="logo.png" alt="TR">
+        <a class="navLink" href="index.html">Home</a>
+        <a class="navLink" href="portfolio.html">Portofolio</a>
+        <a class="navLink" href="contacts.html">Kontaktai</a>
     </nav>
 </header>
 <main>
-    <div><p>portofolio!!!!!!!!!!!!!!!!!!!</p></div>
+    <div class="techNav">
+        <h1><a class="tech" href="csharpas">C#</a></h1>
+        <h1><a class="tech" href="JAVA">JAVA</a></h1>
+        <h1><a class="tech" href="WEB">WEB</a></h1>
+        <!--<img src="csharplogo.png" alt="c#" height="25px" width="25px">-->
+        <!--<img src="javalogo.png" alt="java" height="25px" width="25px">-->
+        <!--<img src="weblogo.png" alt="web" height="25px" width="25px">-->
+    </div>
+    <hr>
+    <div class="grid">
+        <div class="grid1"><img src="/codeImg/web1.jpg" alt=""></div>
+        <div class="grid2"><img src="/codeImg/web2.JPG" alt=""></div>
+        <div class="grid3"><img src="/codeImg/web3.JPG" alt=""></div>
+        <div class="grid4"><img src="" alt=""></div>
+        <div class="grid5"><img src="" alt=""></div>
+        <div class="grid6"><img src="" alt=""></div>
+    </div>
+    <hr>
+    <div class="pagination">
+        <a href="#">&laquo;</a>
+        <a href="#">1</a>
+        <a href="#">2</a>
+        <a href="#">3</a>
+        <a href="#">&raquo;</a>
+    </div>
+    <hr>
 </main>
-<div></div>
 <footer>
     <span>2018&copy; visos teises saugomos</span>
-    <nav class="bottom">
-        <a href="index.html">Home</a>
-        <a href="portfolio.html">Portofolio</a>
-        <a href="contacts.html">Kontaktai</a>
-    </nav>
 </footer>
 </body>
 </html>

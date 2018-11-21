@@ -1,0 +1,12 @@
+h1 {
+    padding-top: 100px;
+    margin-left: 50px;
+    font-size: 30px;
+}
+p {
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 25px;
+    white-space: normal;
+    text-align: justify;
+}

@@ -1,0 +1,37 @@
+.kontaktai {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.map {
+    width: 100%;
+}
+form {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 100px 100px 10px;
+}
+.grid1{
+
+}
+.grid2 {
+
+}
+.grid3 {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+}
+textarea {
+    width: 100%;
+}
+.grid4 {
+    grid-row-start: 3;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.linkai {
+display:flex;justify-content:center;align-items:center;
+}
