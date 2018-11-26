@@ -1,53 +1,60 @@
 .techNav {
     padding-top: 100px;
-    child-align: middle;
+    display:flex;
+    justify-content:center;
+    align-items:center;
 }
-.techNav h1 {
-    display: inline;
-    padding-left: 15%;
-}
+
 .techlogo {
-    width: 50px;
-    height: 50px;
-}
-/*.tech {*/
-    /*text-decoration: none;*/
-    /*color: #000000;*/
-/*}*/
-h1 {
-    display: inline;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 100px;
     margin-left: 50px;
-    font-size: 30px;
+    width: 100px;
+    height: 90px;
+    margin-right: 50px;
+    border-radius: 5px;
 }
+.active ,.techlogo:hover {
+    background-color: #ddd;
+    cursor: pointer;
+}
+.calc {
+    display: grid;
+}
+
 img {
-    width: 300px;
+    width: 320px;
     height: 300px;
 }
 .grid {
     display: grid;
     grid-template-columns: 320px 320px 320px;
     grid-template-rows: 300px 300px;
+    grid-row-gap: 5px;
+    grid-column-gap: 5px;
 }
-.pagination {
-    display:flex;
-    align-items:center;
 
+/*img padidinimas*/
+
+.transition {
+    transform: scale(1.5);
 }
-.pagination a {
-    margin: auto;
-    color: black;
-    padding: 8px 16px;
-    text-decoration: none;
-    transition: background-color .3s;
-}
-.pagination a:active {
-    background-color: dodgerblue;
-    color: white;
-}
-.pagination a:hover:not(.active) {
-    background-color: #ddd;
-}
+/*pagination*/
+/*.pagination {*/
+/*display:flex;*/
+/*align-items:center;*/
+
+/*}*/
+/*.pagination a {*/
+/*margin: auto;*/
+/*color: black;*/
+/*padding: 8px 16px;*/
+/*text-decoration: none;*/
+/*transition: background-color .3s;*/
+/*}*/
+/*.pagination a:active {*/
+/*background-color: dodgerblue;*/
+/*color: white;*/
+/*}*/
+/*.pagination a:hover:not(.active) {*/
+/*background-color: #ddd;*/
+/*}*/
+

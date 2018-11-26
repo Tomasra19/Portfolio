@@ -33,5 +33,7 @@ textarea {
     align-items:center;
 }
 .linkai {
-display:flex;justify-content:center;align-items:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
 }

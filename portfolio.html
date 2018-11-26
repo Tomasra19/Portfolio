@@ -2,6 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
+    <link rel="icon" href="favicon.png">
     <title>Portfolio</title>
     <link rel="stylesheet" href="/css/reset.css">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
@@ -12,43 +13,52 @@
 <body>
 <header>
     <nav class="top">
-        <img class="logo" src="logo.png" alt="TR">
-        <a class="navLink" href="index.html">Home</a>
-        <a class="navLink" href="portfolio.html">Portofolio</a>
-        <a class="navLink" href="contacts.html">Kontaktai</a>
+
     </nav>
 </header>
 <main>
     <div class="techNav">
-        <!--<h1><a class="tech" href="csharpas">C#</a></h1>-->
-        <!--<h1><a class="tech" href="JAVA">JAVA</a></h1>-->
-        <!--<h1><a class="tech" href="WEB">WEB</a></h1>-->
-        <img  class="techlogo" src="csharplogo.png" alt="c#">
-        <img class="techlogo" src="javalogo.png" alt="java">
-        <img class="techlogo" src="weblogo.png" alt="web">
+        <img class="techlogo csharpas" src="csharplogo.png" alt="c#">
+        <img class="techlogo java active" src="javalogo.png" alt="java">
+        <img class="techlogo web" src="weblogo.png" alt="web">
     </div>
     <hr>
     <div class="grid">
-        <div class="grid1"><img src="/codeImg/web1.jpg" alt=""></div>
-        <div class="grid2"><img src="/codeImg/web2.JPG" alt=""></div>
-        <div class="grid3"><img src="/codeImg/web3.JPG" alt=""></div>
-        <div class="grid4"><img src="" alt=""></div>
-        <div class="grid5"><img src="" alt=""></div>
-        <div class="grid6"><img src="" alt=""></div>
-    </div>
-    <hr>
-    <div class="pagination">
-        <a href="#">&laquo;</a>
-        <a href="#">1</a>
-        <a href="#">2</a>
-        <a href="#">3</a>
-        <a href="#">&raquo;</a>
+        <div class="item csharpasImg"><img class="enlarge" src="/codeImg/c1.JPG" alt=""></div>
+        <div class="item csharpasImg"><img class="enlarge" src="/codeImg/c2.JPG" alt=""></div>
+        <div class="item csharpasImg"><img class="enlarge" src="/codeImg/c3.JPG" alt=""></div>
+        <div class="item csharpasImg"><img class="enlarge" src="/codeImg/c4.JPG" alt=""></div>
+        <div class="item csharpasImg"><img class="enlarge" src="/codeImg/c5.JPG" alt=""></div>
+        <div class="item csharpasImg"><img class="enlarge" src="/codeImg/c6.JPG" alt=""></div>
+        <div class="item javaImg"><img class="enlarge" src="/codeImg/java1.JPG" alt=""></div>
+        <div class="item javaImg"><img class="enlarge" src="/codeImg/java2.JPG" alt=""></div>
+        <div class="item javaImg"><img class="enlarge" src="/codeImg/java3.JPG" alt=""></div>
+        <div class="item javaImg"><img class="enlarge" src="/codeImg/java4.JPG" alt=""></div>
+        <div class="item javaImg"><img class="enlarge" src="/codeImg/java5.JPG" alt=""></div>
+        <div class="item javaImg"><img class="enlarge" src="/codeImg/java6.JPG" alt=""></div>
+        <div class="item webImg"><img class="enlarge" src="/codeImg/web2.JPG" alt=""></div>
+        <div class="item webImg"><img class="enlarge" src="/codeImg/web3.JPG" alt=""></div>
+        <div class="item webImg"><img class="lempa" src="lightbulbOff.png" alt="lempa"></div>
+        <div class="item webImg calc">
+            <input type="number" placeholder="Pirmas skaicius" id="A" />
+            <input type="number" placeholder="Antras skaicius" id="B" />
+            <input type="button" value="Sudeti" onclick="Sudeti()" />
+            <input type="button" value="Atimti" onclick="Atimti()" />
+            <input type="button" value="Dauginti" onclick="Dauginti()" />
+            <input type="button" value="Dalinti" onclick="Dalinti()" />
+            <h3 id="rezultatas">Ats.:</h3>
+        </div>
+        <div class="item webImg"><img class="enlarge" src="/codeImg/web4.JPG" alt=""></div>
+        <div class="item webImg"><img class="enlarge" src="/codeImg/web5.JPG" alt=""></div>
     </div>
     <hr>
 </main>
 <footer>
     <span>2018&copy; visos teises saugomos</span>
 </footer>
-
+<script src="jquery-3.3.1.js"></script>
+<script src="Javascript/menu.js"></script>
+<script src="Javascript/Portfolio.js"></script>
+<script src="Javascript/calculator.js"></script>
 </body>
 </html>

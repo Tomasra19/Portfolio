@@ -2,26 +2,19 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Pirmas puslapis</title>
+    <link rel="icon" href="favicon.png">
+    <title>Info</title>
     <link rel="stylesheet" href="/css/reset.css">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
     <link rel="stylesheet" href="/css/layout.css">
     <link rel="stylesheet" href="/css/design.css">
     <link rel="stylesheet" href="css/index.css">
 
+
 </head>
 <body>
 <header>
     <nav class="top">
-        <img class="logo" src="logo.png" alt="TR">
-        <a class="navLink" href="index.html">Home</a>
-        <a class="navLink" href="portfolio.html">Portofolio</a>
-        <a class="navLink" href="contacts.html">Kontaktai</a>
-        <div class="burger" onclick="myFunction(this)">
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar3"></div>
-        </div>
     </nav>
 </header>
 <main>
@@ -69,29 +62,12 @@
             quae, sit vel voluptate? Delectus, qui.</p>
     </div>
     <hr>
-    <div class="testas">
-        <input type="number" placeholder="Pirmas skaicius" id="A" />
-        <input type="number" placeholder="Antras skaicius" id="B" />
-        <input type="button" value="Sudeti" onclick="Sudeti()" />
-        <input type="button" value="Atimti" onclick="Atimti()" />
-        <input type="button" value="Dauginti" onclick="Dauginti()" />
-        <input type="button" value="Dalinti" onclick="Dalinti()" />
-        <h3 id="rezultatas">Ats.:</h3>
-
-    </div>
-    <hr>
-    <div class="demo">klase: </div>
-    <hr>
 </main>
 <footer>
     <span>2018&copy; visos teises saugomos</span>
+
 </footer>
-<script>
-    function myFunction(x) {
-        x.classList.toggle("change");
-    }
-</script>
-<script src="/Javascript/js.js"></script>
-<script src="Javascript/js1.js"></script>
+<script src="jquery-3.3.1.js"></script>
+<script src="Javascript/menu.js"></script>
 </body>
 </html>
